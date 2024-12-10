@@ -44,6 +44,10 @@ order by 2 desc
 limit 3;
 -- 14. Devuelve una lista con el nombre y el presupuesto, de los 3 departamentos que tienen menor presupuesto.
 -- 15. Devuelve una lista con el nombre y el gasto, de los 2 departamentos que tienen mayor gasto.
+select nombre, gastos
+  from departamento
+  order by gastos desc
+  limit 2;
 -- 16. Devuelve una lista con el nombre y el gasto, de los 2 departamentos que tienen menor gasto.
 -- 17. Devuelve una lista con 5 filas a partir de la tercera fila de la tabla empleado. La tercera fila se debe incluir en la respuesta. 
 -- La respuesta debe incluir todas las columnas de la tabla empleado.
